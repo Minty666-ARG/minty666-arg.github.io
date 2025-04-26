@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.content {
+  margin-top: 400px;
+  min-height: calc(100vh - 100px);
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  color: white;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar li {
+  margin: 0 20px;
+}
+.content p {
+  text-align: left; /* or center, or right, up to you */
+  width: 100%;
+  flex: 2;
+}
+.side-image {
+  position: absolute;
+  width: 450px; /* or whatever size you want */
+  height: auto;
+  z-index: 500; /* under navbar but above background */
+}
+
+.side-image.left {
+  left: 20px; /* distance from left edge */
+  top: 200px; /* distance from top, adjust if you want */
+}
+
+.side-image.right {
+  right: 20px; /* distance from right edge */
+  top: 700px;
+}
+.side-image.left2{
+	left: 20px;
+	top: 1300px;
+}
