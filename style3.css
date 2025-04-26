@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 .content {
-  margin-top: 400px;
+  margin-top: 300px;
   min-height: calc(100vh - 100px);
   background: rgba(0, 0, 0, 0.5);
   display: flex;
