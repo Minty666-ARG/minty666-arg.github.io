@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Cat Wiki</title>
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Ultimate Cat Wiki</h1>
+        <p>Your ultimate guide to all things feline!</p>
+    </header>
+
+    <section class="introduction">
+        <h2>Welcome to the Cat Wiki!</h2>
+        <p>Cats have been beloved companions for thousands of years, admired for their grace, independence, and mysterious behavior. This wiki is dedicated to everything cat-related — from their fascinating behavior to the many breeds that exist. Whether you're a lifelong cat lover or a curious first-timer, you're in the right place!</p>
+    </section>
+
+    <section class="behavior">
+        <h2>Cat Behavior</h2>
+        <p>Cats communicate through a variety of ways, using vocalizations, body language, and even scent! Here are a few common behaviors:</p>
+        <ul>
+            <li><strong>Purring:</strong> Indicates contentment, but can also occur when a cat is feeling anxious or unwell.</li>
+            <li><strong>Meowing:</strong> Cats use meowing to communicate with humans, asking for food, attention, or even to express frustration.</li>
+            <li><strong>Tail Movements:</strong> A cat's tail is often a reflection of its mood. A flicking tail means irritation, while a high tail indicates confidence.</li>
+            <li><strong>Scratching:</strong> Cats scratch to mark territory, stretch their muscles, and sharpen their claws.</li>
+        </ul>
+    </section>
+
+    <section class="breeds">
+        <h2>Popular Cat Breeds</h2>
+        <div class="cat-container">
+            <div class="cat-card">
+                <img src="./images/siamese-cat.png" alt="Siamese Cat">
+                <p><strong>Siamese:</strong> Known for their striking blue eyes and short coat, Siamese cats are vocal and affectionate.</p>
+            </div>
+            <div class="cat-card">
+                <img src="./images/maine-coon.png" alt="Maine Coon Cat">
+                <p><strong>Maine Coon:</strong> One of the largest domestic cat breeds, known for its bushy tail and friendly personality.</p>
+            </div>
+            <div class="cat-card">
+                <img src="./images/persian-cat.png" alt="Persian Cat">
+                <p><strong>Persian:</strong> With their long, luxurious fur and calm temperament, Persian cats make great lap companions.</p>
+            </div>
+            <div class="cat-card">
+                <img src="./images/bingus.png" alt="Sphynx Cat">
+                <p><strong>Sphynx:</strong> A hairless breed with a unique appearance, known for their social and energetic nature.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="appearance">
+        <h2>Cat Appearance</h2>
+        <p>Cats come in all shapes and sizes, with a variety of fur types and colors:</p>
+        <ul>
+            <li><strong>Short-haired:</strong> Easy to groom and typically very active cats.</li>
+            <li><strong>Long-haired:</strong> Require regular grooming but are known for their luxurious coats.</li>
+            <li><strong>Curly-haired:</strong> The Cornish Rex is a breed known for its curly coat, which is low-shedding and hypoallergenic.</li>
+            <li><strong>Color Patterns:</strong> Cats can be solid, tabby, calico, or even have patterns like tortoiseshell or point coloring (like the Siamese).</li>
+        </ul>
+    </section>
+
+    <section class="history">
+        <h2>The History of Cats</h2>
+        <p>Cats were first domesticated around 9,000 years ago in the Near East, where they helped protect grain stores from rodents. Over time, they spread across the world and became integral to human societies. Ancient Egyptians revered cats and even worshipped them as gods, notably the goddess Bastet. Cats continue to hold a special place in folklore and culture today.</p>
+    </section>
+
+    <section class="fun-facts">
+        <h2>Fun Facts About Cats</h2>
+        <ul>
+            <li>Cats can rotate their ears 180°!</li>
+            <li>They sleep for about 70% of their life!</li>
+            <li>Cats have five toes on their front paws, but only four on their back paws!</li>
+            <li>There are over 70 different breeds of cats!</li>
+        </ul>
+    </section>
+
+    <section class="famous-cats">
+        <h2>Famous Cats in History</h2>
+        <p>Some cats have gained worldwide fame for their personalities and influence:</p>
+        <ul>
+            <li><strong>Garfield:</strong> The lazy, lasagna-loving cat who became a global comic sensation.</li>
+            <li><strong>Grumpy Cat:</strong> Famous for her permanent scowl, Grumpy Cat became a viral meme.</li>
+            <li><strong>Hello Kitty:</strong> A cultural icon who has appeared on everything from plush toys to fashion lines.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 The Ultimate Cat Wiki. All rights reserved.</p>
+    </footer>
+
+    <a href="#" class="back-to-top">&#8679; Back to Top</a>
+
+    <script>
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Password Portal</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-button">Return</a>
-        </div>
-    </nav>
-
-    <div class="center-box" id="login-box">
-        <h2>Enter Password</h2>
-        <input type="password" id="passwordInput" placeholder="Password">
-        <button onclick="checkPassword()">Submit</button>
-        <p id="errorMessage" class="error"></p>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-button">Return</a>
     </div>
+  </nav>
 
-    <div class="protected-content" id="protected-content" style="display: none;">
-        <h2>Have fun & Good Luck!</h2>
-		<li><a href="skibidi.html">Enter The Website.</a></li>
-    </div>
+  <div class="center-box">
+    <h2>Enter Password</h2>
+    <input type="password" id="passwordInput" placeholder="Password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="errorMessage" class="error"></p>
+  </div>
 
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
+  
 </body>
 </html>

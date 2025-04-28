@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysterious Missing</title>
+    <link rel="stylesheet" href="styles3.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mysterious Missing</h1>
+        <p>The Case of an Unsolved Disappearance</p>
+    </header>
+
+    <section class="intro">
+        <h2>The Disappearance</h2>
+        <p>On the night of April 2nd, 2025, Astra Novaline has sent her last message on Epic Chat, from then on everyone was curious where she couldve vanished. She was last seen leaving a friend's house, but as the hours passed, there was no sign of her. No footprints, no evidence of a struggle. Just... gone.</p>
+    </section>
+
+    <section class="investigation">
+        <h2>The Investigation</h2>
+        <p>Authorities searched the surrounding woods, interviewed neighbors, and followed leads, and even checked her social media accounts for more clues, but they found nothing. Not a single clue that could explain her sudden disappearance. Over the past 3 weeks, the case grew cold, but the eerie feeling of something *dark* lingering never left the town.</p>
+        <ul>
+            <li><strong>Clue 1:</strong> A strange set of tire tracks were found near the woods.</li>
+            <li><strong>Clue 2:</strong> Astra's phone was found under a bush at her garden, with dms from a Mysterious Man</li>
+            <li><strong>Clue 3:</strong> A mysterious handwritten note was discovered in her bedroom. The message simply read: "You can't hide from my love."</li>
+			<img src="./images/dms.png" alt="Discord Dms" class="mystery-image">
+        </ul>
+    </section>
+
+    <section class="occurrences">
+        <h2>Mysterious Occurrences</h2>
+        <p>Month after Astra's disappearance, strange things began happening around town and her social media:</p>
+        <ul>
+            <li>At her house strange notes started appearing, like if someone was still visiting this place and trying to threaten those who come here too.</li>
+            <li>People were reporting strange man lurking around her house twice a week at nights.</li>
+            <li>A strange symbol, resembling a heart, was found carved into floor of her room.</li>
+			<li>Her social media look like they've been corrupted by something/someone. And Miguel from Epic Chat that was asking for her hand, but was rejected vanished from the server.
+			<div class="hover-text-only">
+				<p class="hidden-text">.-- .-. --- -. --.   -.-. --- -.. .</p>
+			</div>
+        </ul>
+    </section>
+
+    <section class="theories">
+        <h2>Theories & Speculation</h2>
+        <p>As time went on, many theories about Astra's disappearance emerged:</p>
+        <ul>
+            <li><strong>The Grounded Theory:</strong>Some think that she just got sentenced with 5 years at jail for cyber-bullying, and the mysterious man is just the person she was hating</li>
+            <li><strong>The Kidnapping Theory:</strong> Others think Astra was kidnapped by someone she knew, someone who carefully orchestrated her disappearance and covered their tracks.</li>
+            <li><strong>The Escape Theory:</strong> A more chilling thought — what if Astra staged her own disappearance? What if she didn’t want to be found? What if she lives at Miami now?</li>
+			<div class="hover-reveal">
+				<p class="hover-text">You're not alone. Dont even bother trying to find her, or you will be next.</p>
+				<img src="./images/jumpscare1.png" alt="Hidden image" class="hidden-img">
+			</div>
+        </ul>
+    </section>
+
+    <section class="conclusion">
+        <h2>The Creepy Conclusion</h2>
+        <p>Days later, no one has ever truly solved the case of Astra Novaline. The town and our server has moved on, but there is a lingering sense of something... *waiting*. Some say the shadows still whisper at night for help. Some say Astra is still out there, hiding in plain sight. And some say the shadows are still watching.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mysterious Missing. All rights reserved.</p>
+					<div class="hover-text2-only">
+						<p class="hidden-text2">Nrfvov Xligva</p>
+					</div>
+    </footer>
+
+    <a href="#" class="back-to-top">&#8679; Back to Top</a>
+
+    <script>
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
