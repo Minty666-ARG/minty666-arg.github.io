@@ -1,9 +1,9 @@
 const cacheName = "notalex-spooky-0.1";
 const contentToCache = [
-    "Build/build.loader.js",
-    "Build/build.framework.js.gz",
-    "Build/build.data.gz",
-    "Build/build.wasm.gz",
+    "Build/newbuild.loader.js",
+    "Build/newbuild.framework.js",
+    "Build/newbuild.data",
+    "Build/newbuild.wasm",
     "TemplateData/style.css"
 
 ];
